@@ -6,3 +6,13 @@
 *  Purpose: Header file for main. All directives for
 *  main go here.
 ************************************************* */
+
+#ifndef MAIN_CLASSES_H
+#define MAIN_CLASSES_H
+
+#include <iostream>
+#include <random>
+#include <stdexcept>
+#include "stack.h"
+
+#endif /* MAIN_CLASSES_H */
