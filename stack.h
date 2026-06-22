@@ -10,6 +10,8 @@
 #ifndef CLASSES_STACK_H
 #define CLASSES_STACK_H
 
+#include <stdexcept>
+
 // Maximum number of elements the stack can hold. Exposed here (not as a
 // literal) so test code in main.cpp can size its tests to match.
 #define STACKSIZE 10
