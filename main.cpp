@@ -164,7 +164,7 @@ int main() {
     // ---------------------------------------------------------------
     std::cout << "=== Random Tests ===" << std::endl;
 
-    int randomOps = STACKSIZE * 100; // matches assignment's example ratio (1000 ops @ size 10, 10000 @ size 100)
+    int randomOps = STACKSIZE * RANDOM_TEST_MULTIPLIER;
     int currentSize = 0; // shadow count of what the stack should currently hold
 
     for (int i = 0; i < randomOps; i++) {

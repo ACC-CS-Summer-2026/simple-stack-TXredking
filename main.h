@@ -15,4 +15,6 @@
 #include <stdexcept>
 #include "stack.h"
 
+#define RANDOM_TEST_MULTIPLIER 100
+
 #endif /* MAIN_CLASSES_H */
